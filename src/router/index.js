@@ -33,6 +33,11 @@ const routes = [{
     name: 'Monster Slayer',
     component: () => import('../views/MonsterSlayer.vue'),
   },
+  {
+    path: '/scenes',
+    name: 'Vue Behind Scenes',
+    component: () => import('../views/BehindScenes.vue'),
+  },
 ]
 
 const router = createRouter({
