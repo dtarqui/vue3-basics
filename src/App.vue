@@ -3,7 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/events">Events</router-link> |
     <router-link to="/styling">Styling</router-link> |
-    <router-link to="/">Home</router-link> |
+    <router-link to="/conditionals">Conditionals</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view />

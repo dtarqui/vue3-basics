@@ -23,6 +23,11 @@ const routes = [{
     name: 'Styling',
     component: () => import('../views/Styling.vue'),
   },
+  {
+    path: '/conditionals',
+    name: 'Conditionals',
+    component: () => import('../views/Conditionals.vue'),
+  },
 ]
 
 const router = createRouter({
