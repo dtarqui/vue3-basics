@@ -28,6 +28,11 @@ const routes = [{
     name: 'Conditionals',
     component: () => import('../views/Conditionals.vue'),
   },
+  {
+    path: '/game',
+    name: 'Monster Slayer',
+    component: () => import('../views/MonsterSlayer.vue'),
+  },
 ]
 
 const router = createRouter({
