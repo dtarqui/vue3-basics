@@ -38,6 +38,11 @@ const routes = [{
     name: 'Vue Behind Scenes',
     component: () => import('../views/BehindScenes.vue'),
   },
+  {
+    path: '/components',
+    name: 'Components',
+    component: () => import('../views/Components.vue'),
+  },
 ]
 
 const router = createRouter({

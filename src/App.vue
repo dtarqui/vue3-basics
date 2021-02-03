@@ -6,6 +6,7 @@
     <router-link to="/conditionals">Conditionals</router-link> |
     <router-link to="/game">Game</router-link> |
     <router-link to="/scenes">DOM VueJs</router-link> |
+    <router-link to="/components">Components</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view />
