@@ -44,9 +44,14 @@ const routes = [{
     component: () => import('../views/Components.vue'),
   },
   {
-    path: '/problem1',
-    name: 'Problem',
-    component: () => import('../views/problems/One.vue'),
+    path: '/provide',
+    name: 'Injection And Provide',
+    component: () => import('../views/InjectionAndProvide.vue'),
+  },
+  {
+    path: '/comp-adv',
+    name: 'Components Advanced',
+    component: () => import('../views/ComponensAdvanced.vue'),
   },
 ]
 

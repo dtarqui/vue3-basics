@@ -5,12 +5,17 @@
     <router-link to="/styling">Styling</router-link> |
     <router-link to="/conditionals">Conditionals</router-link> |
     <router-link to="/game">Game</router-link> |
-    <router-link to="/scenes">DOM VueJs</router-link> |
+    <router-link to="/scenes">DOM VueJs</router-link>
+    <br />
+    <br />
     <router-link to="/components">Components</router-link> |
-    <router-link to="/problem1">Problem 1</router-link> |
+    <router-link to="/provide">Provide and Inject</router-link> |
+    <router-link to="/comp-adv">Components Advanced</router-link> |
     <router-link to="/about">About</router-link>
   </div>
+  <hr />
   <router-view />
+  <hr />
 </template>
 
 <style>

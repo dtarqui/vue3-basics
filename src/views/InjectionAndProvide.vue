@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import ActiveElement from "../../components/problem-one/ActiveElement";
-import KnowledgeBase from "../../components/problem-one/KnowledgeBase";
+import ActiveElement from "../components/problem-one/ActiveElement";
+import KnowledgeBase from "../components/problem-one/KnowledgeBase";
 export default {
   components: {
     ActiveElement,
