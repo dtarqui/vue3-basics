@@ -53,6 +53,11 @@ const routes = [{
     name: 'Components Advanced',
     component: () => import('../views/ComponensAdvanced.vue'),
   },
+  {
+    path: '/project-one',
+    name: 'Project',
+    component: () => import('../views/ProjectOne.vue'),
+  },
 ]
 
 const router = createRouter({
