@@ -43,6 +43,11 @@ const routes = [{
     name: 'Components',
     component: () => import('../views/Components.vue'),
   },
+  {
+    path: '/problem1',
+    name: 'Problem',
+    component: () => import('../views/problems/One.vue'),
+  },
 ]
 
 const router = createRouter({

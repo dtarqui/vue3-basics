@@ -7,6 +7,7 @@
     <router-link to="/game">Game</router-link> |
     <router-link to="/scenes">DOM VueJs</router-link> |
     <router-link to="/components">Components</router-link> |
+    <router-link to="/problem1">Problem 1</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view />
