@@ -58,6 +58,11 @@ const routes = [{
     name: 'Project',
     component: () => import('../views/ProjectOne.vue'),
   },
+  {
+    path: '/forms',
+    name: 'Forms',
+    component: () => import('../views/Forms.vue'),
+  },
 ]
 
 const router = createRouter({

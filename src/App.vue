@@ -6,12 +6,13 @@
     <router-link to="/conditionals">Conditionals</router-link> |
     <router-link to="/game">Game</router-link> |
     <router-link to="/scenes">DOM VueJs</router-link>
-    <br />
-    <br />
+    <br /><br />
     <router-link to="/components">Components</router-link> |
     <router-link to="/provide">Provide and Inject</router-link> |
     <router-link to="/comp-adv">Components Advanced</router-link> |
-    <router-link to="/project-one">Project One</router-link> |
+    <router-link to="/project-one">Project One</router-link>
+    <br /><br />
+    <router-link to="/forms">Forms</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <hr />
