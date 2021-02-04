@@ -63,6 +63,11 @@ const routes = [{
     name: 'Forms',
     component: () => import('../views/Forms.vue'),
   },
+  {
+    path: '/http-request',
+    name: 'Http Requests',
+    component: () => import('../views/HttpRequests.vue'),
+  },
 ]
 
 const router = createRouter({

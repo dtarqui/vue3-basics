@@ -13,6 +13,7 @@
     <router-link to="/project-one">Project One</router-link>
     <br /><br />
     <router-link to="/forms">Forms</router-link> |
+    <router-link to="/http-request">Http-Request</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <hr />

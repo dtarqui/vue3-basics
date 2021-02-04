@@ -22,7 +22,10 @@
 import BaseBadge from "./BaseBadge.vue";
 import BaseCard from "./BaseCard.vue";
 export default {
-  components: { BaseBadge, BaseCard },
+  components: {
+    BaseBadge,
+    BaseCard,
+  },
 };
 </script>
 
