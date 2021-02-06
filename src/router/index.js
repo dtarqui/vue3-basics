@@ -113,6 +113,21 @@ const routes = [{
       },
     ]
   },
+  {
+    path: '/animation',
+    name: 'Animation',
+    component: () => import('../views/Animation.vue'),
+    children: [{
+        path: '',
+        component: () => import('../views/animations/AllUsers.vue'),
+      },
+      {
+        path: 'goals',
+        component: () => import('../views/animations/CourseGoals.vue'),
+      }
+
+    ]
+  },
 ]
 
 const router = createRouter({
