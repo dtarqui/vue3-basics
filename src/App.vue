@@ -16,6 +16,7 @@
     <router-link to="/http-request">Http-Request</router-link> |
     <router-link to="/routing/teams">Routing</router-link> |
     <router-link to="/animation">Animation</router-link> |
+    <router-link to="/vuex">Vuex Project</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <hr />

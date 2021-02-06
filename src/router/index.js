@@ -125,6 +125,28 @@ const routes = [{
         path: 'goals',
         component: () => import('../views/animations/CourseGoals.vue'),
       }
+    ]
+  },
+  {
+    path: '/vuex',
+    name: 'Vuex',
+    component: () => import('../views/Vuex.vue'),
+    children: [{
+        path: '/',
+        redirect: '/products'
+      },
+      {
+        path: '/products',
+        component: () => import('../views/vuex_pages/ProductsList.vue'),
+      },
+      {
+        path: '/cart',
+        component: () => import('../views/vuex_pages/UserCart.vue'),
+      },
+      {
+        path: '/admin',
+        component: () => import('../views/vuex_pages/ShopAdmin.vue'),
+      },
 
     ]
   },
